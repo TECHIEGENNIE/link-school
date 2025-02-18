@@ -1,0 +1,5 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+09:57:36	5142/5142	---M-Z	404	error ('Not%20Found')	text/html	etag:W/%2267a39290-239b%22	https://tailwindtoolbox.github.io/robots.txt		(from )
+09:57:36	75281/75281	---M-Z	200	added ('OK')	text/html	etag:W/%226391d6cf-12611%22	https://tailwindtoolbox.github.io/Landing-Page/	C:/%20my%20web%20site/linkschoolpro2/tailwindtoolbox.github.io/Landing-Page/index.html	(from )
+09:57:38	118359/118359	---M--	200	added ('OK')	image/png	etag:%226391d6cf-1ce57%22	https://tailwindtoolbox.github.io/Landing-Page/hero.png	C:/%20my%20web%20site/linkschoolpro2/tailwindtoolbox.github.io/Landing-Page/hero.png	(from https://tailwindtoolbox.github.io/Landing-Page/)
+09:57:38	2934019/2934019	---MCZ	200	added ('OK')	text/css	etag:W/%222cc503-cyTPK4s7rX9aC3Y3NNaHIxjV1fQ%22	https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css	C:/%20my%20web%20site/linkschoolpro2/unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css	(from https://tailwindtoolbox.github.io/Landing-Page/)

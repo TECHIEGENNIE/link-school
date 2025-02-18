@@ -1,0 +1,149 @@
+:root {
+    --blue: rgb(33, 150, 243);
+    --orange: rgb(255, 152, 0);
+}
+
+
+.gradient {
+    background: linear-gradient(90deg, #151e9e 0%, #daae51 100%);
+    /* background: linear-gradient(90deg, #daae51 0%, #0a1386 100%); */
+}
+
+.toggleColour {
+    color: var(--blue) !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.toggleColour span {
+    color: var(--orange) !important;
+}
+
+.input{
+    width: 20rem;
+    height: 2.3rem;
+    margin: -1rem;
+}
+
+.marquee {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+  /* Ensure swiper slides take full height */
+  .swiper-container {
+    width: 100%;
+    height: 100vh;
+}
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.list i{
+    color: var(--orange) !important;
+    font-size: 1.5rem;
+}
+
+.list ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.blog{
+    padding-bottom: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 3rem;
+}
+
+
+.swiper-contain {
+    max-width: 1000px; /* Keeps testimonials centered */
+    /* margin: 6rem; */
+    padding: 3rem;
+}
+.swiper-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    height: 15rem !important;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.swiper-wrapper{
+    padding-bottom: 3rem;
+
+}
+
+.aboutimg{
+    z-index: 2;
+}
+
+.thumbnail{
+    height: 100%;
+}
+
+.our-app{
+    padding-bottom: 6rem;
+}
+
+.apps{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+input{
+    color: #000;
+}
+
+/* #signinModal{
+    background: gray ;
+} */
+
+.modal-width{
+    width: 40%;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-icon i{
+    font-size: 1.7rem !important;
+    
+
+} 
+
+.footer-address i{
+    font-size: 1.4rem;
+}
+
+.footer-detail{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+}

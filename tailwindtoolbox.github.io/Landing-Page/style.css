@@ -147,3 +147,8 @@ input{
     align-items: center;
 
 }
+
+
+.custom-icon {
+    color: #ff9800 !important; /* Orange */
+}
